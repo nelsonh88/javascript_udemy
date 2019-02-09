@@ -1,7 +1,8 @@
-///////////////////////////////////////
-// Lecture: Hoisting
+/*****************************
+* VIDEO: HOISTING IN PRACTICE
+*/
 
-
+// hoisting functions
 calculateAge(1967)
 
 function calculateAge(year) {
@@ -13,7 +14,6 @@ const retirement = function (year) {
 }
 
 retirement(1992)
-
 
 
 

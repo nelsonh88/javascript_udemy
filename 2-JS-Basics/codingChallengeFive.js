@@ -63,3 +63,5 @@ const john = {
 
 john.calcTip()
 console.log(john.tips, john.totalBills)
+
+// I DID NOT DO THE BONUS CHALLENGE YET

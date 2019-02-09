@@ -13,9 +13,9 @@
 const john = {
   name: 'John',
   yearOfBirth: 1990,
-  calculateAge: function () {
+  calculateAge: function (year) {
     console.log(this)
-    console.log(2018 - this.yearOfBirth)
+    console.log(year - this.yearOfBirth)
 
     function innerFunction() {
       console.log(this)
@@ -24,7 +24,7 @@ const john = {
   }
 }
 
-john.calculateAge()
+john.calculateAge(2019)
 
 let mike = {
   name: 'Mike',
@@ -32,5 +32,5 @@ let mike = {
 }
 
 mike.calculateAge = john.calculateAge
-mike.calculateAge()
+mike.calculateAge(2019)
 console.log(mike)
