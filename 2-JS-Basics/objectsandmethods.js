@@ -1,4 +1,6 @@
-
+/*********************************************************************
+VIDEO: OBJECTS AND METHODS
+*/
 const john = {
   name: 'John',
   lastName: 'Smith',
@@ -6,14 +8,15 @@ const john = {
   job: 'teacher',
   isMarried: false,
   family: ['Jane', 'Mark', 'Bob'],
-  calculateAge: function() {
+  calculateAge: function(year) {
     // let age = 2018 - this.yearOfBirth
     // return age
-    this.age = 2018 - this.yearOfBirth
+    this.age = year - this.yearOfBirth
   }
 }
+console.log(john)
 
-john.calculateAge()
+john.calculateAge(2019)
 console.log(john)
 // console.log(john.calculateAge())
 
