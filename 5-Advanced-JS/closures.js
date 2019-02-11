@@ -1,3 +1,7 @@
+/***************************************
+* VIDEO: CLOSURES
+*/
+
 // closures
 
 function retirement (retirementAge) {
