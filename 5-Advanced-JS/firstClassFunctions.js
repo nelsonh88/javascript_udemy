@@ -1,3 +1,7 @@
+/***************************************
+* VIDEO: PASSING FUNCTIONS AS ARGUMENTS
+*/
+
 // Passing functions as arguments
 
 const years = [1990, 1965, 1937, 2005, 1998]

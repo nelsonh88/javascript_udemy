@@ -1,3 +1,6 @@
+/***************************************
+* VIDEO: FUNCTIONS RETURNING FUNCTIONS
+*/
 // functions returning functions
 
 const interviewQuestions = function (job) {
