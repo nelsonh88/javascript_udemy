@@ -1,4 +1,6 @@
-//primitives vs Objects
+/***************************************
+* VIDEO: PRIMITIVES VS OBJECTS
+*/
 
 //primitives
 let a = 23
